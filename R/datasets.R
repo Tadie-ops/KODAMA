@@ -51,7 +51,7 @@ spirals = function (n = c(100, 100, 100), sd = c(0, 0, 0))
 
 swissroll = function (N = 1000) 
 {
-  n <- 3
+  n <- 4
   m <- 2
   tt <- sort((3 * pi/2) * (1 + 2 * runif(N)))
   height <- 21 * runif(N)
