@@ -49,10 +49,12 @@ spirals = function (n = c(100, 100, 100), sd = c(0, 0, 0))
 
 # Computes the Swiss Roll data set of a given number of data points.
 
+###  this is tad_branch
+
 swissroll = function (N = 1000) 
 {
-  n <- 3
-  m <- 2
+  n <- 5
+  m <- 4
   tt <- sort((3 * pi/2) * (1 + 2 * runif(N)))
   height <- 21 * runif(N)
   x <- tt * cos(tt)
